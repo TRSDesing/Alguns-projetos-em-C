@@ -1,0 +1,101 @@
+Operador E (Logica pelo que entendi)
+
+introdução:
+
+#include <stdio.h>
+
+"Corpo do código":
+
+int main(){}
+
+variáveis que já estão com o valor atribuído por causa do "=":
+
+int a = 5;
+
+int b = 10;
+
+Logica do "Se" e "senão":
+
+Se "a" é maior que 0 e "b" é maior que 0 o "&&" verifica se ambos são positivos ou negativo:
+
+se (a > 0 && b > 0) {
+mostre ("Ambos os números são positivos. \n");
+} senao {
+mostre ("Um dos números não é positivo. \n");
+}
+
+Para fechar o código:
+
+return 0;
+
+}
+
+------------------------------------------------------------------------------
+
+Operador OU (Logica pelo o que eu entendi)
+
+introdução:
+
+#include <stdio.h>
+
+"Corpo do código":
+
+int main(){}
+
+variáveis que já estão com o valor atribuído por causa do "=":
+
+int a = 5;
+
+int b = 10;
+
+Logica do "Se" e "senão":
+
+Se "a" é maior que 0 e "b" é maior que 0 o "||" verifica se um dos números é positivo:
+
+se (a > 0 || b > 0){
+mostre ("Pelo menos um dos números é positivo. \n");
+} senão {
+mostre ("Nenhum dos números é positivo. \n")
+}
+
+Para fechar o código:
+
+return 0;
+
+}
+
+------------------------------------------------------------------------------
+
+Operador NAO
+
+introdução:
+
+#include <stdio.h>
+
+"Corpo do código":
+
+int main(){}
+
+variáveis que já estão com o valor atribuído por causa do "=":
+
+int a = -5;
+
+Logica o "se" e "senão":
+
+se "a" é maior que 0 o "!" verifica se "a" é negativo ou não
+
+se (!(a > 0)){
+mostre ("O número de "a" é negativo. \n");
+} senão {
+mostre ("O número "a" é positivo. \n");
+}
+
+Para fechar o código:
+
+return 0;
+
+}
+
+
+
+
